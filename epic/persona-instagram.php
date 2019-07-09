@@ -57,5 +57,14 @@
 								<li>Anything that doesn't entail shopping</li>
 							</ul>
 					</div>
+
+					<div>
+						<ul>
+							<li><a href ="persona-instagram.php">Persona</a></li>
+							<li><a href ="index.php">User Story</a></li>
+							<li><a href ="use-case.php">Use Case or Interaction Flow</a></li>
+							<li><a href="conceptual-model.php">Conceptual Model</a></li>
+						</ul>
+					</div>
 	</body>
 </html>
