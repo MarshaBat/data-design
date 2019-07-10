@@ -10,7 +10,7 @@
 
 					<div>
 						<h3>Fashionista Frankie - Demographics</h3>
-						<img src="fashiondiva.jpg">
+						<img src="fashion.jpg">
 							<ul>
 								<li>Age: 28</li>
 								<li>Location: New Orleans, LA</li>
@@ -43,11 +43,11 @@
 					<div>
 						<h3>Tech</h3>
 							<ul>
-								Internet: Excellent
-								Social Network: Only Instagram, but a Star.
-								Messaging: Nope.
-								Games: Not even...
-								Online Shopping: Will be the death of her!
+								<li>Internet: Excellent</li>
+								<li>Social Network: Only Instagram, but a Star.</li>
+								<li>Messaging: Nope.</li>
+								<li>Games: Not even...</li>
+								<li>Online Shopping: Will be the death of her!</li>
 							</ul>
 					</div>
 
@@ -59,12 +59,14 @@
 					</div>
 
 					<div>
-						<ul>
-							<li><a href ="persona-instagram.php">Persona</a></li>
-							<li><a href ="index.php">User Story</a></li>
-							<li><a href ="use-case.php">Use Case or Interaction Flow</a></li>
-							<li><a href="conceptual-model.php">Conceptual Model</a></li>
-						</ul>
+						<p>Return to
+							<a href = "index.php">Home</a>
+							<a href ="persona-instagram.php">Persona</a>
+							<a href ="index.php">User Story</a>
+							<a href ="use-case.php">Use Case or Interaction Flow</a>
+							<a href="conceptual-model.php">Conceptual Model</a>
+
+						</p>
 					</div>
 	</body>
 </html>
