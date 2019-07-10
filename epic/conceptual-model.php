@@ -1,10 +1,48 @@
-<div>
-	<p>Return to
-		<a href = "index.php">Home</a>
-		<a href ="persona-instagram.php">Persona</a>
-		<a href ="index.php">User Story</a>
-		<a href ="use-case.php">Use Case or Interaction Flow</a>
-		<a href="conceptual-model.php">Conceptual Model</a>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Use Case - Data Design Project</title>
+	</head>
 
-	</p>
-</div>
+	<body>
+
+		<div>
+			<h2>Entities & Attributes - Conceptual Model</h2>
+			<p>Profile</p>
+				<ul>
+					<li>profileId (primary key)</li>
+					<li>profileUsername</li>
+					<li>profilePassword</li>
+					<li>profileEmail</li>
+				</ul>
+
+			<p>Photo</p>
+			<ul>
+				<li>protoId (primary key)</li>
+				<li>photoProfileId (foreign key)</li>
+				<li>photoContent</li>
+				<li>photoDate</li>
+				<li>photoTime</li>
+			</ul>
+
+		</div>
+
+		<p>Relations</p>
+		<ul>
+			<li>One profile can post many photos (1 to n)</li>
+		</ul>
+
+
+		<div>
+			<p>Return to
+				<a href = "index.php">Home</a>
+				<a href ="persona-instagram.php">Persona</a>
+				<a href ="index.php">User Story</a>
+				<a href ="use-case.php">Use Case or Interaction Flow</a>
+				<a href="conceptual-model.php">Conceptual Model</a>
+
+			</p>
+		</div>
+	</body>
+

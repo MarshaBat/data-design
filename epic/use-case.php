@@ -13,11 +13,10 @@
 					<p>Objective: Posting a picture as a status post on Instagram</p>
 					<p>Description: As A Power User, I want to post a picture to my Instagram page</p>
 					<p>Preconditional: Frankie is logged into Instagram, and has a gallery of photos saved on her phone</p>
-					<p>Postconditional: Frankie </p>
+					<p>Postconditional: Frankie's photo post is visible to her followers on Instagram.</p>
 
 				<h3>Interactive Flow</h3>
 					<ul>
-						<li>Frankie has logged in to Instagram.</li>
 						<li>Frankie clicks on the add photo button.</li>
 						<li>Frankie's gallery of photos pops up.</li>
 						<li>Frankie scrolls through her gallery photos.</li>
