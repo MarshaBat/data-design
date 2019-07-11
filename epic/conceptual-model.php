@@ -5,7 +5,7 @@
 		<title>Use Case - Data Design Project</title>
 	</head>
 	<body>
-		<h1>Use Case - Data Design Project</h1>
+		<h1>Conceptual Model - Data Design Project</h1>
 		<h2>Phase 1 Assignment</h2>
 
 		<div>

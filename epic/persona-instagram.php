@@ -10,7 +10,7 @@
 
 					<div>
 						<h3>Fashionista Frankie - Demographics</h3>
-						<img src="fashion.jpg">
+						<img src="fashion.jpg" alt="Picture of Frankie">
 							<ul>
 								<li>Age: 28</li>
 								<li>Location: New Orleans, LA</li>
