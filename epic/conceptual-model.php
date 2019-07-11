@@ -4,11 +4,12 @@
 		<meta charset="utf-8"/>
 		<title>Use Case - Data Design Project</title>
 	</head>
-
 	<body>
+		<h1>Use Case - Data Design Project</h1>
+		<h2>Phase 1 Assignment</h2>
 
 		<div>
-			<h2>Entities & Attributes - Conceptual Model</h2>
+			<h3>Entities & Attributes - Conceptual Model</h3>
 			<p>Profile</p>
 				<ul>
 					<li>profileId (primary key)</li>
@@ -26,15 +27,15 @@
 				<li>photoTime</li>
 			</ul>
 
+			<p>Relations</p>
+				<ul>
+					<li>One profile can post many photos (1 to n)</li>
+				</ul>
+
 		</div>
 
-		<p>Relations</p>
-		<ul>
-			<li>One profile can post many photos (1 to n)</li>
-		</ul>
-
 		<div>
-			<img src="erd.png" alt="Picture of ERD">
+			<img src="erd.JPG" alt="Picture of ERD">
 		</div>
 
 
@@ -42,11 +43,13 @@
 			<p>Return to
 				<a href = "index.php">Home</a>
 				<a href ="persona-instagram.php">Persona</a>
-				<a href ="index.php">User Story</a>
+				<a href ="user-story.php">User Story</a>
 				<a href ="use-case.php">Use Case or Interaction Flow</a>
 				<a href="conceptual-model.php">Conceptual Model</a>
 
 			</p>
 		</div>
+
 	</body>
 
+</html>

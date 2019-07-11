@@ -5,14 +5,14 @@
 		<title>Use Case - Data Design Project</title>
 	</head>
 		<body>
-			<h1>User Persona - Data Design Project</h1>
+			<h1>Use Case - Data Design Project</h1>
 			<h2>Phase 1 Assignment</h2>
 
 			<div>
 				<h3>Use Case</h3>
-					<p>Objective: Posting a picture as a status post on Instagram</p>
-					<p>Description: As A Power User, I want to post a picture to my Instagram page</p>
-					<p>Preconditional: Frankie is logged into Instagram, and has a gallery of photos saved on her phone</p>
+					<p>Objective: Posting a picture as a status post on Instagram.</p>
+					<p>Description: As a registered user on Instagram, Frankie posts a picture to her Instagram page.</p>
+					<p>Preconditional: Frankie is logged into Instagram, and has a gallery of photos saved on her phone.</p>
 					<p>Postconditional: Frankie's photo post is visible to her followers on Instagram.</p>
 
 				<h3>Interactive Flow</h3>
@@ -34,7 +34,7 @@
 				<p>Return to
 					<a href = "index.php">Home</a>
 					<a href ="persona-instagram.php">Persona</a>
-					<a href ="index.php">User Story</a>
+					<a href ="user-story.php">User Story</a>
 					<a href ="use-case.php">Use Case or Interaction Flow</a>
 					<a href="conceptual-model.php">Conceptual Model</a>
 
