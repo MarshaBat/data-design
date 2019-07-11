@@ -19,7 +19,7 @@
 
 			<p>Photo</p>
 			<ul>
-				<li>protoId (primary key)</li>
+				<li>photoId (primary key)</li>
 				<li>photoProfileId (foreign key)</li>
 				<li>photoContent</li>
 				<li>photoDate</li>
@@ -32,6 +32,10 @@
 		<ul>
 			<li>One profile can post many photos (1 to n)</li>
 		</ul>
+
+		<div>
+			<img src="erd.png" alt="Picture of ERD">
+		</div>
 
 
 		<div>
