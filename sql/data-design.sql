@@ -7,9 +7,9 @@ DROP TABLE IF EXISTS profile;
 
 -- These statements will create the table "profile";
 CREATE TABLE profile (
-   -- The following creates an attribute for the primary key.
-   -- All attributes are required as indicated by NOT NULL.
-   profileId BINARY(16) NOT NULL,
+	-- The following creates an attribute for the primary key.
+	-- All attributes are required as indicated by NOT NULL.
+	profileId BINARY(16) NOT NULL,
 	profileUsername VARCHAR(32) NOT NULL,
 	profilePassword VARCHAR(128) NOT NULL,
 	profileEmail VARCHAR(128) NOT NULL,
