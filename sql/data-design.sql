@@ -6,14 +6,13 @@ DROP TABLE IF EXISTS photo;
 DROP TABLE IF EXISTS profile;
 
 -- These statements will create the table "profile".
+-- All attributes are required as indicated by NOT NULL.
 CREATE TABLE profile (
 	-- The following creates an attribute for the primary key.
-	-- All attributes are required as indicated by NOT NULL.
 	profileId BINARY(16) NOT NULL,
 	profileUsername VARCHAR(32) NOT NULL,
 	profilePassword VARCHAR(128) NOT NULL,
 	profileEmail VARCHAR(128) NOT NULL,
-	UNIQUE (profileId),
 	UNIQUE (profileEmail),
 	-- This is the primary key.
 	PRIMARY KEY (profileId)
@@ -32,6 +31,7 @@ CREATE TABLE photo (
 	-- This is my primary key.
 	-- This creates my index of the foreign key.
 	INDEX (photoProfileId),
+	-- Creating an index of the Foreign Key.
 	FOREIGN KEY	(photoProfileId) REFERENCES profile(profileId),
 	PRIMARY KEY (photoId)
 );
