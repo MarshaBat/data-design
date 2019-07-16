@@ -28,10 +28,10 @@ CREATE TABLE photo (
 	photoContent VARCHAR(3600) NOT NULL,
 	photoDate DATETIME(6) NOT NULL,
 	photoTime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	-- This is my primary key.
 	-- This creates my index of the foreign key.
 	INDEX (photoProfileId),
 	-- Creating an index of the Foreign Key.
 	FOREIGN KEY	(photoProfileId) REFERENCES profile(profileId),
+	-- This is my primary key.
 	PRIMARY KEY (photoId)
 );
